@@ -1,12 +1,3 @@
-/* Wi-Fi Provisioning Manager Example
-
-   This example code is in the Public Domain (or CC0 licensed, at your option.)
-
-   Unless required by applicable law or agreed to in writing, this
-   software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-   CONDITIONS OF ANY KIND, either express or implied.
-*/
-
 #include <stdio.h>
 #include <string.h>
 
@@ -34,10 +25,10 @@ static const char *TAG = "app";
 
 #if CONFIG_EXAMPLE_PROV_SECURITY_VERSION_2
 #if CONFIG_EXAMPLE_PROV_SEC2_DEV_MODE
-#define EXAMPLE_PROV_SEC2_USERNAME          "wifiprov"
-#define EXAMPLE_PROV_SEC2_PWD               "abcd1234"
+#define EXAMPLE_PROV_SEC2_USERNAME          "siddu"
+#define EXAMPLE_PROV_SEC2_PWD               "56781234"
 
-/* This salt,verifier has been generated for username = "wifiprov" and password = "abcd1234"
+/* This salt,verifier has been generated for username = "siddu" and password = "56781234"
  * IMPORTANT NOTE: For production cases, this must be unique to every device
  * and should come from device manufacturing partition.*/
 static const char sec2_salt[] = {
