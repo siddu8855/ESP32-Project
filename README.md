@@ -1,5 +1,4 @@
-# ESP32-Project
-Wi-Fi Provisioning Manager Example
+**#Wi-Fi Provisioning Manager Example**
 
 This example demonstrates how to use the Wi-Fi Provisioning Manager component to build a provisioning application.
 
